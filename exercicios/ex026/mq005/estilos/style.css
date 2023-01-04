@@ -41,6 +41,10 @@ menu > ul {
     list-style-type: none;
 }
 
+menu li {
+    display: block;
+}
+
 menu a {
     display: block;
     padding: 10px;

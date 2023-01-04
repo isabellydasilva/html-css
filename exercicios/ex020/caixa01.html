@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <style>
+        h1 { /* box level */
+            height: 300px;
+            width: 300px;
+
+            background-color: lightgray;
+
+            border-width: 10px;
+            border-style: solid;
+            border-color: black;
+
+            /* shorthand 
+            border -> width style color
+            */
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+            /* shorthand
+            padding -> top right botton left
+            se as 4 for igual so mostrar um vez
+            */
+
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 20px;
+            margin-left: 10px;
+
+            /* shorthand
+            margin -> top right botton left
+            se as 4 for igual so mostrar um vez
+            */
+
+            /* se quiser deixar no centro usa margin: auto */
+
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: rgb(21, 96, 71);
+
+            /* shorthand 
+            outline -> width style color
+            */
+        }
+        a { /* inline-level */
+
+            /* display:block -> se quiser mudar o tipo pode fazer o mesmo ao contrario com display: inline */
+            border-width: 10px;
+            border-style: double;
+            border-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa block-level</h1>
+    <p>Paragrafos tambem são exemplos de block-level <a href="#"> vamos ver como tudo isso funciona</a></p>
+</body>
+</html>
